@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will You Be My Valentine?</title>
+    <title></title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Will you be my Valentine?</h1>
-        <div class="buttons">
-            <button class="yes-button" onclick="handleYesClick()">Yes</button>
-            <button class="no-button" onclick="handleNoClick()">No</button>
+<body data-page="quiz">
+    <div class="page-screenshot" aria-hidden="true">
+        <div class="page-screenshot-image"></div>
+    </div>
+    <main class="container" aria-busy="true">
+        <div class="question-content">
+            <h1 id="question-text" aria-live="polite">Loading your Valentine quiz...</h1>
+            <div id="answer-buttons" class="buttons"></div>
         </div>
         <div class="gif_container">
-            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXN5OHFlbXZhMjU5cDNwbWN1bG1ybmtrdXl6emkxdnlyczZ1dGJodyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0waPv7NEb7nP08Gba/giphy.gif" alt="Cute GIF">
+            <img id="media" alt="" hidden>
+            <div id="media-placeholder" role="img" style="text-align: center;" hidden></div>
         </div>
-    </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

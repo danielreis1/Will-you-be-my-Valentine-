@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knew you would say yes!</title>
+    <title></title>
     <link rel="stylesheet" href="./yes_style.css">
 </head>
-<body>
-    <div class="container">
-        <h1 class="header_text">Knew you would say yes!</h1>
-        <div class="gif_container">
-            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXd4eXhwamFyNHEzb2Zndng4d2tjZzJseTVwamV3ZDlobzRlZDF2cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GYRZctjRjm3bG/giphy.gif">
-        </div>
+<body data-page="celebration">
+    <div class="page-screenshot" aria-hidden="true">
+        <div class="page-screenshot-image"></div>
     </div>
+    <main class="container" aria-busy="true">
+        <h1 id="ending-text" class="header_text" aria-live="polite">Loading your celebration...</h1>
+        <div class="gif_container">
+            <img id="media" alt="" hidden>
+            <div id="media-placeholder" role="img" style="text-align: center;" hidden></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

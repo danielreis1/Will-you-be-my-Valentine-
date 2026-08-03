@@ -1,0 +1,110 @@
+{
+  "images": {
+    "1": "/assets/1.jpeg",
+    "2": "/assets/2.jpeg",
+    "3": "/assets/3.jpeg",
+    "4": "/assets/4.jpeg",
+    "5": "/assets/5.jpeg",
+    "6": "/assets/6.jpeg",
+    "7": "/assets/7.jpeg",
+    "8": "/assets/8.jpeg",
+    "9": "/assets/9.jpeg",
+    "10": "/assets/10.jpeg",
+    "11": "/assets/11.jpeg",
+    "12": "/assets/12.jpeg",
+    "13": "/assets/13.jpeg"
+  },
+  "celebrationScreenshot": "/assets/celebrationScreenshot.jpeg",
+  "pageTitles": {
+    "quiz": "Valentine Quiz",
+    "question": "Valentine Quiz - Question {number}",
+    "switchSeats": "Valentine Plans",
+    "celebration": "Valentine Celebration",
+    "loadError": "Unable to Load Valentine Content"
+  },
+  "titleOpacity": 0.4,
+  "screenshotPlaceholders": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "celebration": "celebration screenshot"
+  },
+  "questions": {
+    "1": {
+      "text": "És só minha? 🥹",
+      "image": "1",
+      "answers": [
+        {
+          "label": "yes",
+          "image": "5",
+          "action": "next"
+        },
+        {
+          "label": "yes",
+          "image": "6",
+          "action": "next"
+        }
+      ]
+    },
+    "2": {
+      "text": "Queres tudo comigo? 🥹",
+      "image": "2",
+      "answers": [
+        {
+          "label": "yes",
+          "image": "7",
+          "action": "next"
+        },
+        {
+          "label": "yes",
+          "image": "8",
+          "action": "next"
+        }
+      ]
+    },
+    "3": {
+      "text": "Vamos a mais uma aventura",
+      "image": "3",
+      "answers": [
+        {
+          "label": "yes",
+          "image": "9",
+          "action": "next"
+        },
+        {
+          "label": "no",
+          "pressedLabel": "please",
+          "image": "10",
+          "action": "shrink-no"
+        }
+      ]
+    },
+    "4": {
+      "text": "Vamos conduzir durante 4 horas?",
+      "image": "4",
+      "answers": [
+        {
+          "label": "sim",
+          "image": "11",
+          "action": "celebrate"
+        },
+        {
+          "label": "Eu conduzo então!",
+          "image": "12",
+          "action": "switch-seats"
+        }
+      ]
+    }
+  },
+  "endings": {
+    "celebration": {
+      "text": "Here's to more birthdays, love, and adventures!\nto get your gift prove your love with a true lover's kiss!"
+    },
+    "switchSeats": {
+      "text": "Então troca de lugar vá",
+      "continueLabel": "ok",
+      "image": "13"
+    }
+  }
+}
