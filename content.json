@@ -36,12 +36,12 @@
       "image": "1",
       "answers": [
         {
-          "label": "yes",
+          "label": "Sim",
           "image": "5",
           "action": "next"
         },
         {
-          "label": "yes",
+          "label": "Sim",
           "image": "6",
           "action": "next"
         }
@@ -52,12 +52,12 @@
       "image": "2",
       "answers": [
         {
-          "label": "yes",
+          "label": "Sim",
           "image": "7",
           "action": "next"
         },
         {
-          "label": "yes",
+          "label": "Sim",
           "image": "8",
           "action": "next"
         }
@@ -68,13 +68,13 @@
       "image": "3",
       "answers": [
         {
-          "label": "yes",
+          "label": "Sim",
           "image": "9",
           "action": "next"
         },
         {
-          "label": "no",
-          "pressedLabel": "please",
+          "label": "Não",
+          "pressedLabel": "por favoor!",
           "image": "10",
           "action": "shrink-no"
         }
@@ -85,7 +85,7 @@
       "image": "4",
       "answers": [
         {
-          "label": "sim",
+          "label": "Sim",
           "image": "11",
           "action": "celebrate"
         },
